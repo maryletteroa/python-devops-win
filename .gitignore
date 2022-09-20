@@ -1,0 +1,4 @@
+credentials/*
+scratch/*
+.venv/*
+__pycache__
