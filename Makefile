@@ -9,7 +9,7 @@ lint:
 	pylint --disable=R,C module
 
 test-py:
-	python -m pytest -vv --cov=module test/test_*.py
+	python -m pytest -vv
 
 format:
 	black module/*.py
