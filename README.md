@@ -1,4 +1,4 @@
-[![Makefile CI](https://github.com/maryletteroa/python-devops-win/actions/workflows/makefile.yml/badge.svg?branch=main)](https://github.com/maryletteroa/python-devops-win/actions/workflows/makefile.yml)
+[![build](https://github.com/maryletteroa/python-devops-win/actions/workflows/makefile.yml/badge.svg?branch=main)](https://github.com/maryletteroa/python-devops-win/actions/workflows/makefile.yml)
 # About
 A template for Python projects. 
 
