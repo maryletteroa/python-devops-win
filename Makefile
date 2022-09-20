@@ -2,6 +2,9 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
+add-dirs:
+	mkdir credentials scatch
+
 lint:
 	pylint --disable=R,C *.py lib
 
