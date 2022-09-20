@@ -3,15 +3,15 @@ install:
 		pip install -r requirements.txt
 
 add-dirs:
-	mkdir credentials scatch
+	mkdir credentials scratch
 
 lint:
-	pylint --disable=R,C *.py lib
+	pylint --disable=R,C module
 
 test:
-	python -m pytest -vv --cov=lib test/test_*.py
+	python -m pytest -vv --cov=module test/test_*.py
 
 format:
-	black *.py lib/*.py
+	black module/*.py
 
-all: install linkt test format
+all: install lint test format
