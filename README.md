@@ -1,3 +1,17 @@
+# About
+A template for Python projects. 
+
+## Development
+Start Date  | End date
+-|-
+September 20, 2022 | *NA*
+
+## Operating System
+Windows
+
+
+## Steps
+
 1. Clone the repository
 2. Create the virtual environment
 ```
@@ -7,10 +21,6 @@ python -m virtualenv .venv
 Windows `cmd`:
 ```
 .venv\Scripts\activate
-```
-Unix `cmd`:
-```
-source .venv/bin/activate
 ```
 4. Install
 ```
