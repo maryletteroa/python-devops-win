@@ -48,6 +48,5 @@ git branch dev
 git checkout dev
 ```
 6. Proceed with development in the `dev` branch
-7. Create a github workflow for `main` and `dev`
-8. Commit and push changes to `dev`
-9. If tests passed, merge to `main`.
+7. Commit and push changes to `dev`
+8. If tests passed, merge to `main`.
