@@ -42,11 +42,5 @@ Windows `cmd`:
 ```
 make install
 ```
-5. Create a branch e.g. `dev`
-```
-git branch dev
-git checkout dev
-```
-6. Proceed with development in the `dev` branch
-7. Commit and push changes to `dev`
-8. If tests passed, merge to `main`.
+6. Create a workflow using [Github Actions](https://docs.github.com/en/actions)
+7. Set up a workflow based on the Makefile, or as suitable
