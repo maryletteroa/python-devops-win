@@ -1,6 +1,6 @@
 [![build](https://github.com/maryletteroa/python-devops-win/actions/workflows/makefile.yml/badge.svg?branch=main)](https://github.com/maryletteroa/python-devops-win/actions/workflows/makefile.yml)
 # About
-A template for Python projects. 
+A template for Python projects. Contains sample set up scripts only.
 
 ## Development
 Start Date  | End date
@@ -42,3 +42,12 @@ Windows `cmd`:
 ```
 make install
 ```
+5. Create a branch e.g. `dev`
+```
+git branch dev
+git checkout dev
+```
+6. Proceed with development in the `dev` branch
+7. Create a github workflow for `main` and `dev`
+8. Commit and push changes to `dev`
+9. If tests passed, merge to `main`.
