@@ -9,7 +9,7 @@ lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py module
 
 test-py:
-	python -m pytest -vv -s
+	python -m pytest -x -vv -s
 
 format:
 	black module/*.py
